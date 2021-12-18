@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: beige;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  padding-top: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: beige;
+  height: 64px;
+  color: #323651;
+  box-shadow: 0 4px 8px 0 rgba(116, 116, 116, 0.1);
+}
+nav a {
+  color: #323651;
+}
+
+nav p {
+  font-size: 18px;
+  margin-left: 100px;
+  float: left;
+}
+
+nav ul {
+  margin-right: 100px;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  font-size: 18px;
+  text-align: center;
+  padding: 0px 16px;
+  margin-left: 24px;
+}
+
+nav li a:hover {
+  font-weight: bold;
+  background-color: #323651;
+  border-radius: 20px;
+  color: #ffce89;
+}
+
+nav ul li a.active{
+    background-color: #323651;
+    color: #ffce89;
+    border-radius: 20px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.distance{
+    padding-top: 100px;
+}
+
+.flex-container img {
+  margin-left: 30%;
+}
+
+.btn {
+  background-color: #323651;
+  padding: 12px 14px;
+  border-radius: 50%;
+}
+
+.social-links {
+  margin: 0px 64px 0px 140px;
+}
+
+.social-links a {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.social-links a:hover {
+  background-color: #ffce89;
+  color: #323651;
+}
+
+.name h1 {
+  font-size: 45px;
+  margin: 8px 0px;
+}
+
+.name h4 {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.name h3 {
+  font-size: 24px;
+}
+
+#tiang {
+  font-size: 28px;
+  font-weight: normal;
+}
+
+#profil {
+  float: right;
+}
+/* 
+.bg-1{
+    background-color: ;
+} */
+
+/**ABOUT**/
+.rectangle {
+  width: 1rem;
+  height: 6rem;
+  margin: 0px 24px 0px 100px;
+  background-color: #323651;
+  border-radius: 50px;
+}
+
+.section-title {
+  height: 4rem;
+  vertical-align: middle;
+}
+
+.container {
+  margin: auto;
+  width: 70%;
+  height: auto;
+  background-color: white;
+  border-radius: 35px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.featured-image {
+  border-radius: 40%;
+  height: 16rem;
+  margin: 24px 0px;
+}
+
+.wrapper {
+  margin-top: 2%;
+}
+
+#images-bio img {
+  margin: auto;
+  display: block;
+  padding-top: 24px;
+}
+
+#biodata {
+  padding: 0px 112px 48px 112px;
+}
+
+/* #biodata table{
+    align-content: center;
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    margin-left: auto; /**to centered a table = margin left & right - set it to auto//
+    margin-right: auto;
+}
+
+#biodata th{
+    padding: 2px 8px 2px 0px;
+    width: 150px;
+} */
+#biodata h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin: 24px 0px 8px 0px;
+}
+
+#biodata p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+#interest {
+  text-align: center;
+}
+
+#interest figure {
+  align-self: center;
+  display: inline-block;
+  margin-right: 32px;
+}
+
+/* download button */
+.download-btn{
+  text-align: center;
+}
+
+#biodata .download-btn p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.btn-download {
+  background-color: #323651;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 30px;
+}
+
+a.btn-download{
+    margin-top: 8px;
+}
+
+.btn-download:hover {
+  background-color: #ffce89;
+  color: #323651;
+}
+
+/**experience**/
+.experience table {
+  margin-left: 140px;
+  margin-right: 100px;
+  border-collapse: collapse;
+}
+
+.experience td {
+  width: 24rem;
+  padding-left: 24px;
+  vertical-align: bottom;
+}
+
+#logo img {
+  height: 120px;
+  margin: 8px;
+}
+
+#role {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#organization,
+#period {
+  font-size: 16px;
+}
+
+#period td {
+  vertical-align: top;
+}
+
+#kmb img {
+  border-radius: 50%;
+}
+
+.experience .flex-container img {
+  margin: 0px;
+}
+
+.flex-container table{
+    padding-top: -200px;
+  }
+
+/**portfolio**/
+/* .portfolio {
+    width: 75%;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.portfolio::-webkit-scrollbar{
+    display: none;
+} */
+
+.card {
+  width: 350px;
+  height: 380px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 2%;
+  border-radius: 30px;
+  margin-left: 24px;
+}
+
+#portfolio img {
+  width: 300px;
+  margin: auto; /*to centered align an image if its not inside the div =  margin auto + display block*/
+  display: block;
+}
+
+.detail {
+  margin: 0px 20px 16px 20px;
+}
+
+.category {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.title-project {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: #323651;
+}
+
+.description {
+  font-size: 16px;
+}
+
+/**slider button**/
+#portfolio span {
+  font-size: 3rem;
+  background-color: #323651;
+  padding: 0px 16px;
+  color: white;
+  border-radius: 5px;
+}
+
+#portfolio span:hover {
+  background-color: #ffce89;
+  color: #323651;
+  cursor: pointer;
+}
+
+.btn-slide{
+  text-align: center;
+}
+
+#portfolio section {
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+}
+
+#portfolio section::-webkit-scrollbar {
+  display: none;
+}
+
+#portfolio section .portfolio {
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 0 20px 0 4px;
+  border-radius: 20px;
+  position: relative;
+  transition: 0.5s; /*transisi pas digeser */
+}
+
+/***footer**/
+footer {
+  padding: 30px;
+  color: white;
+  background-color: #323651;
+  text-align: center;
+  align-content: center;
+  margin-top: 48px;
+  font-size: 18px;
+}
