@@ -8,7 +8,7 @@
 }
 
 html {
-  background-color: beige;
+  background-color: white;
 }
 
 a {
@@ -23,7 +23,7 @@ nav {
   z-index: 10;
   top: 0;
   left: 0;
-  background-color: beige;
+  background-color: whitesmoke;
   height: 64px;
   color: #323651;
   box-shadow: 0 4px 8px 0 rgba(116, 116, 116, 0.1);
@@ -148,7 +148,7 @@ nav ul li a.active{
   margin: auto;
   width: 70%;
   height: auto;
-  background-color: white;
+  background-color: beige;
   border-radius: 35px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -253,6 +253,8 @@ a.btn-download{
 #logo img {
   height: 120px;
   margin: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
 }
 
 #role {
@@ -269,17 +271,12 @@ a.btn-download{
   vertical-align: top;
 }
 
-#kmb img {
-  border-radius: 50%;
-}
-
 .experience .flex-container img {
   margin: 0px;
 }
-
-.flex-container table{
-    padding-top: -200px;
-  }
+.experience .flex-container{
+  margin-top: 2%;
+}
 
 /**portfolio**/
 /* .portfolio {
@@ -298,7 +295,7 @@ a.btn-download{
 .card {
   width: 350px;
   height: 380px;
-  background-color: white;
+  background-color: beige;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin-top: 2%;
   border-radius: 30px;
@@ -364,7 +361,7 @@ a.btn-download{
 }
 
 #portfolio section .portfolio {
-  background: white;
+  background: beige;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 0 20px 0 4px;
   border-radius: 20px;
