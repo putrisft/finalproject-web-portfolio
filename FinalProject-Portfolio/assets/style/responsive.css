@@ -1,0 +1,74 @@
+/* #### MEDIA QUERY #### */
+@media screen and (max-width: 600px) {
+  
+    /* #home{
+        position: relative;
+    } */
+
+    .social-links{
+        margin-left: 30px;
+        margin-top: 16rem;
+        display: inline-flex;
+    }
+
+    .social-links a{
+        margin-right: 4px;
+    }
+
+    .name, .social-links{
+        position: absolute;
+    }
+
+    .name{
+        margin-left: 30px;
+        background-color: rgba(245,245,245,0.7) ;
+        border-radius: 20px;
+        margin-top: 5rem;
+        padding-left: 8px;
+    }
+
+    .name h1{
+        font-size: 20px;
+    }
+
+    .name h3, .name h4{
+        font-size: 16px;
+    }
+   #profil img{
+       height: 350px;
+       margin-top: 4px;
+       margin-left: 30%;
+       overflow-x: hidden;
+   }
+
+   
+
+
+  #portfolio {
+    width: 100%;
+    padding: 0;
+  }
+
+  #portfolio p {
+    width: 100%;
+  }
+  #portfolio h2 {
+    font-size: 25px;
+    display: inline-block;
+    width: 100%;
+  }
+
+  #portfolio p span {
+    font-size: 30px;
+  }
+  #portfolio section .portfolio {
+    min-width: 49%;
+    margin: 0 10px 0 0;
+  }
+
+  .portfolio button {
+    font-size: 12px;
+    height: 25px;
+  }
+
+}

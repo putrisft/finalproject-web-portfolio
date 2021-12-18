@@ -125,10 +125,7 @@ nav ul li a.active{
 #profil {
   float: right;
 }
-/* 
-.bg-1{
-    background-color: ;
-} */
+
 
 /**ABOUT**/
 .rectangle {
@@ -173,19 +170,6 @@ nav ul li a.active{
   padding: 0px 112px 48px 112px;
 }
 
-/* #biodata table{
-    align-content: center;
-    width: 50%;
-    text-align: center;
-    font-size: 18px;
-    margin-left: auto; /**to centered a table = margin left & right - set it to auto//
-    margin-right: auto;
-}
-
-#biodata th{
-    padding: 2px 8px 2px 0px;
-    width: 150px;
-} */
 #biodata h2 {
   font-size: 40px;
   font-weight: bold;
@@ -279,18 +263,6 @@ a.btn-download{
 }
 
 /**portfolio**/
-/* .portfolio {
-    width: 75%;
-    height: 450px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    overflow-x: auto;
-}
-
-.portfolio::-webkit-scrollbar{
-    display: none;
-} */
 
 .card {
   width: 350px;
