@@ -1,2 +1,2 @@
 # finalproject-web-portfolio
-first commit
+my portfolio web using html, css and javascript, no framework.
