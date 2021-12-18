@@ -16,6 +16,7 @@ a {
   color: white;
 }
 
+/**NAVBAR**/
 nav {
   padding-top: 20px;
   position: fixed;
@@ -87,7 +88,7 @@ nav ul li a.active{
   border-radius: 10px;
 }
 
-/**home**/
+/**HOME**/
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -240,7 +241,7 @@ a.btn-download{
   color: #323651;
 }
 
-/**experience**/
+/**EXPERIENCE**/
 .experience table {
   margin-left: 140px;
   margin-right: 100px;
@@ -280,7 +281,7 @@ a.btn-download{
   margin-top: 2%;
 }
 
-/**portfolio**/
+/**PORTFOLIO**/
 .card {
   width: 350px;
   height: 380px;
@@ -358,7 +359,7 @@ a.btn-download{
   transition: 0.5s; /*transisi pas digeser */
 }
 
-/***footer**/
+/**FOOTER**/
 footer {
   padding: 30px;
   color: white;
