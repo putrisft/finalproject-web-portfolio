@@ -41,8 +41,27 @@
        overflow-x: hidden;
    }
 
-   
+   .container{
+       width: 100%;
+       margin: 16px 24px 0px 50px;
+   }
 
+   #biodata {
+    padding: 0px 24px 36px 24px;
+  }
+
+  #biodata h2{
+      font-size: 32px;
+  }
+  
+  #images-bio img{
+      height: 200px;
+    }
+
+#interest figure {
+  margin-right: 16px;
+  margin-top: 4px;
+}
 
   #portfolio {
     width: 100%;
@@ -70,5 +89,6 @@
     font-size: 12px;
     height: 25px;
   }
+
 
 }
