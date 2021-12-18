@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,18 +11,26 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
     <link rel = "icon" href = "assets/images/silluet-bg-light.png" type = "image/x-icon">
 </head>
+
 <body>
     <!-- header -->
     <header>
-        <nav>
+        <nav class="navbar">
             <p><b>PSF</b></p>
-            <ul>
-                <li><a class="home active" href="#home">Home</a></li>
-                <li><a class="about" href="#about">About</a></li>
-                <li><a class="port" href="#port">Portfolio</a></li>
-                <li><a class="exp" href="#exp">Experience</a></li>
-            </ul>
-        </nav>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a class="home active" href="#home">Home</a></li>
+                    <li><a class="about" href="#about">About</a></li>
+                    <li><a class="port" href="#port">Portfolio</a></li>
+                    <li><a class="exp" href="#exp">Experience</a></li>
+                </ul>
+            </div>
+        </nav>      
     </header>
 
     <!-- main -->
@@ -264,5 +273,6 @@
     <!-- script -->
     <script src="assets/script/slider.js"></script>
     <script src="assets/script/navlink.js"></script>
+    <script src="assets/script/navbar_responsive.js"></script>
 </body>
 </html>
