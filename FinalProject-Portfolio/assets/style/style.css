@@ -225,7 +225,6 @@ a.btn-download{
 .experience table {
   margin-left: 140px;
   margin-right: 100px;
-  border-collapse: collapse;
 }
 
 .experience td {
@@ -263,7 +262,6 @@ a.btn-download{
 }
 
 /**portfolio**/
-
 .card {
   width: 350px;
   height: 380px;

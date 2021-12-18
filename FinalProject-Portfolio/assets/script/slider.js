@@ -9,11 +9,11 @@ let movePer = 30;
 let maxMove = 120;
 
 // mobile_view	
-let mob_view = window.matchMedia("(max-width: 768px)");
+let mob_view = window.matchMedia("(max-width: 600px)");
 if (mob_view.matches)
 {
-	movePer = 50.36;
-	maxMove = 504;
+	movePer = 98;
+	maxMove = 700;
 }
 
 let moveRight = ()=>{
